@@ -25,29 +25,11 @@
   --h6--letter-spacing: var(--_units---rel--0);
   --paragraph--font-size-m: var(--_units---abs--3);
   --paragraph--line-height-s: var(--_units---rel--1-6);
-  --text--paragraph--size-md-mb\<deleted\|variable-97d0e72b-dac6-1a95-5df7-0279a072f116\>: 1rem;
-  --text--paragraph--size-sm-mb\<deleted\|variable-50475929-d7f4-b76b-1670-e0aa3b308f52\>: .875rem;
   --paragraph--font-size-l: var(--_units---abs--4);
-  --text--paragraph--size-lg-mb\<deleted\|variable-8a486085-7ebd-1886-0fcf-df02a025443d\>: 1.25rem;
-  --sg--accent\<deleted\|variable-f99b7484-1025-ac89-cdcc-e56662cfeb6f\>: #ff6955;
-  --sg--text-secondary\<deleted\|variable-55aa35ad-0159-693d-de69-da612b93e714\>: #fff9;
-  --site--dark--text-secondary\<deleted\|variable-4413c9fa-06ae-f3f6-6db4-a994ce60f9df\>: #fff9;
   --_themes---primary--500: #ff6955;
-  --color--secondary--100\<deleted\|variable-0be32efb-c393-a637-72e6-69c435c9ef2b\>: #14161d;
-  --color--secondary--80\<deleted\|variable-3373327a-4ab2-45b8-e68c-0370e4e1f883\>: #8796bd;
-  --site--light--surface\<deleted\|variable-7776d67d-aee7-9396-50f4-5cb29517c0c1\>: #fff;
-  --site--dark--surface\<deleted\|variable-5f67298d-b283-86ff-b001-063a7c98e65e\>: #111112;
-  --site--dark--text-primary\<deleted\|variable-5aee8dab-0f1e-e07f-3dca-579cdfb4772d\>: #fff;
-  --site--light--text-primary\<deleted\|variable-48efa51e-1db2-3095-a16a-c8a1c656c11c\>: #000;
-  --site--light--text-secondary\<deleted\|variable-54075233-83bb-c238-a82c-f2e80d6adc4e\>: #5c5c5c;
-  --sg--stroke\<deleted\|variable-96e42a86-0b58-16b3-ae3d-5dc42bdc50d2\>: #fff3;
-  --sg--surface-tert\<deleted\|variable-147ae091-01ae-c761-ee38-e9a4e4068a4b\>: #35373f;
   --padding--xs: var(--_units---abs--12);
   --padding--xxs: var(--_units---abs--6);
-  --global--padding-tb\<deleted\|variable-3f877e3c-8b23-03a5-bf62-375b0bbef6bf\>: 3rem;
-  --sg--surface-sec\<deleted\|variable-1e3104ad-98eb-244e-aaef-7d0fc185f297\>: #1f1f22;
   --global--margin: var(--_units---abs--6);
-  --global--padding-dt\<deleted\|variable-131cbf27-bb64-cbf5-2d6e-2e12c8a69b71\>: 6rem;
   --max-width--s: 40rem;
   --max-width--m: 60rem;
   --max-width--l: 60rem;
@@ -58,9 +40,7 @@
   --paragraph--font-size-s: var(--_units---abs--3);
   --paragraph--line-height-m: var(--_units---rel--1-8);
   --paragraph--line-height-l: var(--_units---rel--1-2);
-  --site--neutral--white\<deleted\|variable-a65db05b-ed21-abae-929f-73c6f479233c\>: #fff;
   --_themes---neutrals--100: #f1f5f9;
-  --site--neutral--grey\<deleted\|variable-5caf9ac9-0dbf-7457-c963-25babb94e58a\>: #c3c3c3;
   --padding--sm: var(--_units---abs--16);
   --padding--md: var(--_units---abs--18);
   --padding--lg: var(--_units---abs--24);
@@ -270,28 +250,10 @@ body {
   --h6--letter-spacing: var(--_units---rel--0);
   --paragraph--font-size-m: var(--_units---abs--3);
   --paragraph--line-height-s: var(--_units---rel--1-6);
-  --text--paragraph--size-md-mb\<deleted\|variable-97d0e72b-dac6-1a95-5df7-0279a072f116\>: 1rem;
-  --text--paragraph--size-sm-mb\<deleted\|variable-50475929-d7f4-b76b-1670-e0aa3b308f52\>: .875rem;
   --paragraph--font-size-l: var(--_units---abs--4);
-  --text--paragraph--size-lg-mb\<deleted\|variable-8a486085-7ebd-1886-0fcf-df02a025443d\>: 1.25rem;
-  --sg--accent\<deleted\|variable-f99b7484-1025-ac89-cdcc-e56662cfeb6f\>: #ff6955;
-  --sg--text-secondary\<deleted\|variable-55aa35ad-0159-693d-de69-da612b93e714\>: #fff9;
-  --site--dark--text-secondary\<deleted\|variable-4413c9fa-06ae-f3f6-6db4-a994ce60f9df\>: #fff9;
-  --color--secondary--100\<deleted\|variable-0be32efb-c393-a637-72e6-69c435c9ef2b\>: #14161d;
-  --color--secondary--80\<deleted\|variable-3373327a-4ab2-45b8-e68c-0370e4e1f883\>: #8796bd;
-  --site--light--surface\<deleted\|variable-7776d67d-aee7-9396-50f4-5cb29517c0c1\>: #fff;
-  --site--dark--surface\<deleted\|variable-5f67298d-b283-86ff-b001-063a7c98e65e\>: #111112;
-  --site--dark--text-primary\<deleted\|variable-5aee8dab-0f1e-e07f-3dca-579cdfb4772d\>: #fff;
-  --site--light--text-primary\<deleted\|variable-48efa51e-1db2-3095-a16a-c8a1c656c11c\>: #000;
-  --site--light--text-secondary\<deleted\|variable-54075233-83bb-c238-a82c-f2e80d6adc4e\>: #5c5c5c;
-  --sg--stroke\<deleted\|variable-96e42a86-0b58-16b3-ae3d-5dc42bdc50d2\>: #fff3;
-  --sg--surface-tert\<deleted\|variable-147ae091-01ae-c761-ee38-e9a4e4068a4b\>: #35373f;
   --padding--xs: var(--_units---abs--12);
   --padding--xxs: var(--_units---abs--6);
-  --global--padding-tb\<deleted\|variable-3f877e3c-8b23-03a5-bf62-375b0bbef6bf\>: 3rem;
-  --sg--surface-sec\<deleted\|variable-1e3104ad-98eb-244e-aaef-7d0fc185f297\>: #1f1f22;
   --global--margin: var(--_units---abs--6);
-  --global--padding-dt\<deleted\|variable-131cbf27-bb64-cbf5-2d6e-2e12c8a69b71\>: 6rem;
   --max-width--s: 40rem;
   --max-width--m: 60rem;
   --max-width--l: 60rem;
@@ -299,8 +261,6 @@ body {
   --paragraph--font-size-s: var(--_units---abs--3);
   --paragraph--line-height-m: var(--_units---rel--1-8);
   --paragraph--line-height-l: var(--_units---rel--1-2);
-  --site--neutral--white\<deleted\|variable-a65db05b-ed21-abae-929f-73c6f479233c\>: #fff;
-  --site--neutral--grey\<deleted\|variable-5caf9ac9-0dbf-7457-c963-25babb94e58a\>: #c3c3c3;
   --padding--sm: var(--_units---abs--16);
   --padding--md: var(--_units---abs--18);
   --padding--lg: var(--_units---abs--24);
@@ -391,7 +351,7 @@ h6 {
 
 p {
   font-size: var(--paragraph--font-size-m);
-  line-height: var(--paragraph--line-height-s);
+  line-height: var(--paragraph--line-height-m);
   letter-spacing: var(--paragraph--letter-spacing);
   margin-bottom: 0;
 }
@@ -532,15 +492,14 @@ figcaption {
 }
 
 .sg_h3 {
-  color: var(--sg--accent\<deleted\|variable-f99b7484-1025-ac89-cdcc-e56662cfeb6f\>);
+  color: var(--_white-label---sg--accent);
   font-size: 1rem;
   font-weight: 400;
   display: inline-block;
 }
 
 .sg_caption {
-  color: var(--sg--text-secondary\<deleted\|variable-55aa35ad-0159-693d-de69-da612b93e714\>);
-  -webkit-text-stroke-color: var(--site--dark--text-secondary\<deleted\|variable-4413c9fa-06ae-f3f6-6db4-a994ce60f9df\>);
+  color: var(--_white-label---sg--text-secondary);
   line-height: 1.6em;
 }
 
@@ -660,42 +619,6 @@ figcaption {
   border-radius: 4px;
 }
 
-.sg_color.is-1 {
-  background-color: var(--_themes---primary--500);
-}
-
-.sg_color.is-3 {
-  background-color: var(--color--secondary--100\<deleted\|variable-0be32efb-c393-a637-72e6-69c435c9ef2b\>);
-}
-
-.sg_color.is-4 {
-  background-color: var(--color--secondary--80\<deleted\|variable-3373327a-4ab2-45b8-e68c-0370e4e1f883\>);
-}
-
-.sg_color.is-5 {
-  background-color: var(--site--light--surface\<deleted\|variable-7776d67d-aee7-9396-50f4-5cb29517c0c1\>);
-}
-
-.sg_color.is-6 {
-  background-color: var(--site--dark--surface\<deleted\|variable-5f67298d-b283-86ff-b001-063a7c98e65e\>);
-}
-
-.sg_color.is-9 {
-  background-color: var(--site--dark--text-primary\<deleted\|variable-5aee8dab-0f1e-e07f-3dca-579cdfb4772d\>);
-}
-
-.sg_color.is-10 {
-  background-color: var(--site--dark--text-secondary\<deleted\|variable-4413c9fa-06ae-f3f6-6db4-a994ce60f9df\>);
-}
-
-.sg_color.is-7 {
-  background-color: var(--site--light--text-primary\<deleted\|variable-48efa51e-1db2-3095-a16a-c8a1c656c11c\>);
-}
-
-.sg_color.is-8 {
-  background-color: var(--site--light--text-secondary\<deleted\|variable-54075233-83bb-c238-a82c-f2e80d6adc4e\>);
-}
-
 .sg_background {
   border: 1px solid #0000001a;
   border-radius: 4px;
@@ -714,8 +637,8 @@ figcaption {
 }
 
 .sg_holder-box {
-  border: 1px solid var(--sg--stroke\<deleted\|variable-96e42a86-0b58-16b3-ae3d-5dc42bdc50d2\>);
-  background-color: var(--sg--surface-tert\<deleted\|variable-147ae091-01ae-c761-ee38-e9a4e4068a4b\>);
+  border: 1px solid var(---_white-label---sg--border);
+  background-color: var(--_white-label---sg--bg-tertiary);
   border-radius: 4px;
   width: 100%;
   padding: .5rem;
@@ -804,10 +727,10 @@ figcaption {
 }
 
 .sg_nav {
-  padding: var(--padding--xs) var(--padding--xxs) var(--global--padding-tb\<deleted\|variable-3f877e3c-8b23-03a5-bf62-375b0bbef6bf\>);
+  padding: var(--padding--xs) var(--padding--xxs) var(--global--margin);
   grid-column-gap: 2rem;
   grid-row-gap: 2rem;
-  background-color: var(--sg--surface-sec\<deleted\|variable-1e3104ad-98eb-244e-aaef-7d0fc185f297\>);
+  background-color: var(--_themes---site--bg--bg-primary);
   border-radius: 8px;
   flex-direction: column;
   grid-template-rows: auto;
@@ -846,7 +769,7 @@ figcaption {
 }
 
 .sg_nav-link:hover {
-  color: var(--site--dark--text-primary\<deleted\|variable-5aee8dab-0f1e-e07f-3dca-579cdfb4772d\>);
+  color: var(-_themes---site--bg--text-primary);
   padding-left: 1.5rem;
 }
 
@@ -905,8 +828,8 @@ figcaption {
 }
 
 .section-of {
-  padding-right: var(--global--padding-dt\<deleted\|variable-131cbf27-bb64-cbf5-2d6e-2e12c8a69b71\>);
-  padding-left: var(--global--padding-dt\<deleted\|variable-131cbf27-bb64-cbf5-2d6e-2e12c8a69b71\>);
+  padding-right: var(--global--margin);
+  padding-left: var(--global--margin);
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -1050,12 +973,12 @@ figcaption {
 
 .u-bg-white {
   background-color: var(--_themes---neutrals--white);
-  color: var(--site--neutral--white\<deleted\|variable-a65db05b-ed21-abae-929f-73c6f479233c\>);
+  color: white;
 }
 
 .u-bg-grey {
   background-color: var(--_themes---neutrals--100);
-  color: var(--site--neutral--grey\<deleted\|variable-5caf9ac9-0dbf-7457-c963-25babb94e58a\>);
+  color: #ddd;
 }
 
 .u-bg-black {
@@ -1993,28 +1916,10 @@ figcaption {
     --h6--letter-spacing: var(--_units---rel--0);
     --paragraph--font-size-m: var(--_units---abs--3);
     --paragraph--line-height-s: var(--_units---rel--1-6);
-    --text--paragraph--size-md-mb\<deleted\|variable-97d0e72b-dac6-1a95-5df7-0279a072f116\>: 1rem;
-    --text--paragraph--size-sm-mb\<deleted\|variable-50475929-d7f4-b76b-1670-e0aa3b308f52\>: .875rem;
     --paragraph--font-size-l: var(--_units---abs--4);
-    --text--paragraph--size-lg-mb\<deleted\|variable-8a486085-7ebd-1886-0fcf-df02a025443d\>: 1.25rem;
-    --sg--accent\<deleted\|variable-f99b7484-1025-ac89-cdcc-e56662cfeb6f\>: #ff6955;
-    --sg--text-secondary\<deleted\|variable-55aa35ad-0159-693d-de69-da612b93e714\>: #fff9;
-    --site--dark--text-secondary\<deleted\|variable-4413c9fa-06ae-f3f6-6db4-a994ce60f9df\>: #fff9;
-    --color--secondary--100\<deleted\|variable-0be32efb-c393-a637-72e6-69c435c9ef2b\>: #14161d;
-    --color--secondary--80\<deleted\|variable-3373327a-4ab2-45b8-e68c-0370e4e1f883\>: #8796bd;
-    --site--light--surface\<deleted\|variable-7776d67d-aee7-9396-50f4-5cb29517c0c1\>: #fff;
-    --site--dark--surface\<deleted\|variable-5f67298d-b283-86ff-b001-063a7c98e65e\>: #111112;
-    --site--dark--text-primary\<deleted\|variable-5aee8dab-0f1e-e07f-3dca-579cdfb4772d\>: #fff;
-    --site--light--text-primary\<deleted\|variable-48efa51e-1db2-3095-a16a-c8a1c656c11c\>: #000;
-    --site--light--text-secondary\<deleted\|variable-54075233-83bb-c238-a82c-f2e80d6adc4e\>: #5c5c5c;
-    --sg--stroke\<deleted\|variable-96e42a86-0b58-16b3-ae3d-5dc42bdc50d2\>: #fff3;
-    --sg--surface-tert\<deleted\|variable-147ae091-01ae-c761-ee38-e9a4e4068a4b\>: #35373f;
     --padding--xs: var(--_units---abs--12);
     --padding--xxs: var(--_units---abs--6);
-    --global--padding-tb\<deleted\|variable-3f877e3c-8b23-03a5-bf62-375b0bbef6bf\>: 3rem;
-    --sg--surface-sec\<deleted\|variable-1e3104ad-98eb-244e-aaef-7d0fc185f297\>: #1f1f22;
     --global--margin: var(--_units---abs--6);
-    --global--padding-dt\<deleted\|variable-131cbf27-bb64-cbf5-2d6e-2e12c8a69b71\>: 6rem;
     --max-width--s: 40rem;
     --max-width--m: 60rem;
     --max-width--l: 60rem;
@@ -2022,8 +1927,6 @@ figcaption {
     --paragraph--font-size-s: var(--_units---abs--3);
     --paragraph--line-height-m: var(--_units---rel--1-8);
     --paragraph--line-height-l: var(--_units---rel--1-2);
-    --site--neutral--white\<deleted\|variable-a65db05b-ed21-abae-929f-73c6f479233c\>: #fff;
-    --site--neutral--grey\<deleted\|variable-5caf9ac9-0dbf-7457-c963-25babb94e58a\>: #c3c3c3;
     --padding--sm: var(--_units---abs--16);
     --padding--md: var(--_units---abs--18);
     --padding--lg: var(--_units---abs--24);
@@ -2044,22 +1947,6 @@ figcaption {
     --h6--font-family: var(--typeface--secondary);
     --paragraph--font-family: var(--typeface--primary);
     --gap--flex: var(--_units---abs--4);
-  }
-
-  p, a {
-    font-size: var(--text--paragraph--size-md-mb\<deleted\|variable-97d0e72b-dac6-1a95-5df7-0279a072f116\>);
-  }
-
-  ul {
-    font-size: var(--text--paragraph--size-sm-mb\<deleted\|variable-50475929-d7f4-b76b-1670-e0aa3b308f52\>);
-  }
-
-  ol {
-    font-size: var(--text--paragraph--size-md-mb\<deleted\|variable-97d0e72b-dac6-1a95-5df7-0279a072f116\>);
-  }
-
-  blockquote {
-    font-size: var(--text--paragraph--size-lg-mb\<deleted\|variable-8a486085-7ebd-1886-0fcf-df02a025443d\>);
   }
 
   .sg_section {
@@ -2111,11 +1998,6 @@ figcaption {
     display: none;
   }
 
-  .section-of {
-    padding-right: var(--global--padding-tb\<deleted\|variable-3f877e3c-8b23-03a5-bf62-375b0bbef6bf\>);
-    padding-left: var(--global--padding-tb\<deleted\|variable-3f877e3c-8b23-03a5-bf62-375b0bbef6bf\>);
-  }
-
   .u-hide-md {
     display: none;
   }
@@ -2135,11 +2017,6 @@ figcaption {
   .c-button {
     color: var(--_themes---site--text--text-primary);
     font-size: var(--paragraph--font-size-m);
-  }
-
-  .c-navbar {
-    padding-right: var(--global--padding-tb\<deleted\|variable-3f877e3c-8b23-03a5-bf62-375b0bbef6bf\>);
-    padding-left: var(--global--padding-tb\<deleted\|variable-3f877e3c-8b23-03a5-bf62-375b0bbef6bf\>);
   }
 
   .c-navbar_inner {
@@ -2294,28 +2171,10 @@ figcaption {
     --h6--letter-spacing: var(--_units---rel--0);
     --paragraph--font-size-m: var(--_units---abs--3);
     --paragraph--line-height-s: var(--_units---rel--1-6);
-    --text--paragraph--size-md-mb\<deleted\|variable-97d0e72b-dac6-1a95-5df7-0279a072f116\>: 1rem;
-    --text--paragraph--size-sm-mb\<deleted\|variable-50475929-d7f4-b76b-1670-e0aa3b308f52\>: .875rem;
     --paragraph--font-size-l: var(--_units---abs--4);
-    --text--paragraph--size-lg-mb\<deleted\|variable-8a486085-7ebd-1886-0fcf-df02a025443d\>: 1.25rem;
-    --sg--accent\<deleted\|variable-f99b7484-1025-ac89-cdcc-e56662cfeb6f\>: #ff6955;
-    --sg--text-secondary\<deleted\|variable-55aa35ad-0159-693d-de69-da612b93e714\>: #fff9;
-    --site--dark--text-secondary\<deleted\|variable-4413c9fa-06ae-f3f6-6db4-a994ce60f9df\>: #fff9;
-    --color--secondary--100\<deleted\|variable-0be32efb-c393-a637-72e6-69c435c9ef2b\>: #14161d;
-    --color--secondary--80\<deleted\|variable-3373327a-4ab2-45b8-e68c-0370e4e1f883\>: #8796bd;
-    --site--light--surface\<deleted\|variable-7776d67d-aee7-9396-50f4-5cb29517c0c1\>: #fff;
-    --site--dark--surface\<deleted\|variable-5f67298d-b283-86ff-b001-063a7c98e65e\>: #111112;
-    --site--dark--text-primary\<deleted\|variable-5aee8dab-0f1e-e07f-3dca-579cdfb4772d\>: #fff;
-    --site--light--text-primary\<deleted\|variable-48efa51e-1db2-3095-a16a-c8a1c656c11c\>: #000;
-    --site--light--text-secondary\<deleted\|variable-54075233-83bb-c238-a82c-f2e80d6adc4e\>: #5c5c5c;
-    --sg--stroke\<deleted\|variable-96e42a86-0b58-16b3-ae3d-5dc42bdc50d2\>: #fff3;
-    --sg--surface-tert\<deleted\|variable-147ae091-01ae-c761-ee38-e9a4e4068a4b\>: #35373f;
     --padding--xs: var(--_units---abs--12);
     --padding--xxs: var(--_units---abs--6);
-    --global--padding-tb\<deleted\|variable-3f877e3c-8b23-03a5-bf62-375b0bbef6bf\>: 3rem;
-    --sg--surface-sec\<deleted\|variable-1e3104ad-98eb-244e-aaef-7d0fc185f297\>: #1f1f22;
     --global--margin: var(--_units---abs--6);
-    --global--padding-dt\<deleted\|variable-131cbf27-bb64-cbf5-2d6e-2e12c8a69b71\>: 6rem;
     --max-width--s: 40rem;
     --max-width--m: 60rem;
     --max-width--l: 60rem;
@@ -2323,8 +2182,6 @@ figcaption {
     --paragraph--font-size-s: var(--_units---abs--3);
     --paragraph--line-height-m: var(--_units---rel--1-8);
     --paragraph--line-height-l: var(--_units---rel--1-2);
-    --site--neutral--white\<deleted\|variable-a65db05b-ed21-abae-929f-73c6f479233c\>: #fff;
-    --site--neutral--grey\<deleted\|variable-5caf9ac9-0dbf-7457-c963-25babb94e58a\>: #c3c3c3;
     --padding--sm: var(--_units---abs--16);
     --padding--md: var(--_units---abs--18);
     --padding--lg: var(--_units---abs--24);
