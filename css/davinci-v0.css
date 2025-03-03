@@ -1,6 +1,9 @@
 :root {
     --_themes---site--bg--bg-primary: #020508;
     --typeface--primary: Saans, Arial, sans-serif;
+    --typeface--secondary: "EB Garamond", sans-serif;
+    --typeface--tertiary: "EB Garamond", sans-serif;
+    --_themes---site--text--text-secondary: #777a87;
     --_themes---site--text--text-primary: white;
     --paragraph--font-size-s: var(--_units---abs--3);
     --paragraph--letter-spacing: var(--_units---rel--0-01);
@@ -16,8 +19,6 @@
     --h4--font-size: var(--_units---abs--3-5);
     --h4--line-height: var(--_units---rel--1-4);
     --h4--letter-spacing: var(--_units---rel--0-01);
-    --typeface--secondary: Saansmono, "Trebuchet MS", sans-serif;
-    --_themes---site--text--text-secondary: #777a87;
     --h5--font-size: var(--_units---abs--3-5);
     --h5--line-height: var(--_units---rel--1-4);
     --h5--letter-spacing: var(--_units---rel--0-01);
@@ -59,7 +60,6 @@
     --_units---abs--32: 8rem;
     --_units---abs--40: 10rem;
     --_themes---site--bg--bg-active: #15de7e;
-    --typeface--tertiary: "EB Garamond", sans-serif;
     --_themes---site--border--border-secondary: #ffffff0f;
     --_themes---neutrals--50: white;
     --_units---abs--1: 0.25rem;
@@ -203,6 +203,7 @@ body {
     line-height: var(--paragraph--font-size-s);
     letter-spacing: var(--paragraph--letter-spacing);
     --typeface--primary: Saans, Arial, sans-serif;
+    --typeface--secondary: "EB Garamond", "Trebuchet MS", sans-serif;
     --paragraph--font-size-s: var(--_units---abs--3);
     --paragraph--letter-spacing: var(--_units---rel--0-01);
     --h1--font-size: var(--_units---abs--8);
@@ -217,7 +218,6 @@ body {
     --h4--font-size: var(--_units---abs--3-5);
     --h4--line-height: var(--_units---rel--1-4);
     --h4--letter-spacing: var(--_units---rel--0-01);
-    --typeface--secondary: Saansmono, "Trebuchet MS", sans-serif;
     --h5--font-size: var(--_units---abs--3-5);
     --h5--line-height: var(--_units---rel--1-4);
     --h5--letter-spacing: var(--_units---rel--0-01);
@@ -305,7 +305,7 @@ h5 {
     font-size: var(--h5--font-size);
     line-height: var(--h5--line-height);
     letter-spacing: var(--h5--letter-spacing);
-    text-transform: uppercase;
+    text-transform: lowercase;
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 400;
@@ -1768,7 +1768,7 @@ figcaption {
         --h4--font-size: var(--_units---abs--5);
         --h4--line-height: var(--_units---rel--1-4);
         --h4--letter-spacing: var(--_units---rel--0-01);
-        --typeface--secondary: Saansmono, "Trebuchet MS", sans-serif;
+        --typeface--secondary: "EB Garamond", "Trebuchet MS", sans-serif;
         --h5--font-size: var(--_units---abs--3-5);
         --h5--line-height: var(--_units---rel--1-4);
         --h5--letter-spacing: var(--_units---rel--0-01);
@@ -1972,6 +1972,8 @@ figcaption {
 @media screen and (max-width: 479px) {
     body {
         --typeface--primary: Saans, Arial, sans-serif;
+        --typeface--secondary: "EB Garamond", "Trebuchet MS", sans-serif;
+        --typeface--tertiary: "EB Garamond", sans-serif;
         --paragraph--font-size-s: var(--_units---abs--3);
         --paragraph--letter-spacing: var(--_units---rel--0-01);
         --h1--font-size: var(--_units---abs--6);
@@ -1986,7 +1988,6 @@ figcaption {
         --h4--font-size: var(--_units---abs--4);
         --h4--line-height: var(--_units---rel--1-4);
         --h4--letter-spacing: var(--_units---rel--0-01);
-        --typeface--secondary: Saansmono, "Trebuchet MS", sans-serif;
         --h5--font-size: var(--_units---abs--4);
         --h5--line-height: var(--_units---rel--1-4);
         --h5--letter-spacing: var(--_units---rel--0-01);
@@ -2017,7 +2018,6 @@ figcaption {
         --gap--lg: var(--_units---abs--6);
         --gap--xl: var(--_units---abs--10);
         --gap--xxl: var(--_units---abs--12);
-        --typeface--tertiary: "EB Garamond", sans-serif;
         --h1--font-family: var(--typeface--primary);
         --h2--font-family: var(--typeface--primary);
         --h3--font-family: var(--typeface--primary);
