@@ -174,19 +174,19 @@
     --_white-label---sg--border: #fff3;
 }
 
-.w-layout-vflex {
+.u-layout-vflex {
     flex-direction: column;
     align-items: flex-start;
     display: flex;
 }
 
-.w-layout-hflex {
+.u-layout-hflex {
     flex-direction: row;
     align-items: flex-start;
     display: flex;
 }
 
-.w-layout-grid {
+.u-layout-grid {
     grid-row-gap: 16px;
     grid-column-gap: 16px;
     grid-template-rows: auto auto;
@@ -1362,7 +1362,6 @@ figcaption {
     justify-content: center;
     align-self: stretch;
     align-items: flex-start;
-    height: 80px;
     display: flex;
     position: relative;
 }
