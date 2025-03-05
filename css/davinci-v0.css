@@ -1357,6 +1357,16 @@ figcaption {
 }
 
 .c-footer {
+    flex-flow: column;
+    justify-content: center;
+    align-self: stretch;
+    align-items: flex-start;
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.c-footer_component {
     padding: 1.2rem var(--global--margin);
     flex-flow: column;
     justify-content: center;
@@ -1474,7 +1484,7 @@ figcaption {
 
 .s-hm_text {
     padding-top: var(--_units---abs--32);
-    padding-bottom: var(--_units---abs--32);
+    padding-bottom: var(--_units---abs--24);
     flex: 1;
     justify-content: space-between;
     align-self: stretch;
@@ -1845,7 +1855,7 @@ figcaption {
     }
 
     .c-navbar_drawer {
-        width: 80vw;
+        width: 60vw;
         max-width: none;
         padding-top: 3rem;
         padding-bottom: 3rem;
@@ -1936,6 +1946,10 @@ figcaption {
         overflow: clip;
     }
 
+    .s-hm_index{
+        display: none;
+    }
+
     .c-navbar_links.is-sec {
         display: none;
     }
@@ -1946,6 +1960,16 @@ figcaption {
 
     .s-hm_card-heading {
         max-width: none;
+    }
+
+    .s-ab_inner{
+        flex-direction: column;
+        gap: var(--gap--lg);
+    }
+
+    .s-ab_div{
+        padding-top: var(--padding--xl);
+        padding-bottom: var(--padding--sm);
     }
 }
 
