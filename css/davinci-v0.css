@@ -569,7 +569,6 @@ figcaption {
 .u-bg-white {
     background-color: var(--_themes---neutrals--white);
     color: var(--_themes---neutrals--950);
-    );
 }
 
 .u-bg-black {
@@ -1947,7 +1946,7 @@ figcaption {
         overflow: clip;
     }
 
-    .s-hm_index{
+    .s-hm_index {
         display: none;
     }
 
@@ -1963,12 +1962,12 @@ figcaption {
         max-width: none;
     }
 
-    .s-ab_inner{
+    .s-ab_inner {
         flex-direction: column;
         gap: var(--gap--lg);
     }
 
-    .s-ab_div{
+    .s-ab_div {
         padding-top: var(--padding--xl);
         padding-bottom: var(--padding--sm);
     }

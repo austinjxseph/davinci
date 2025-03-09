@@ -96,7 +96,11 @@ ul {
     opacity: 100%;
 }
 
-.c-navbar_link:hover .c-navbar_border {
+.c-navbar_link:hover .c-element_border {
+    transform: translateY(0%);
+}
+
+.c-footer_link:hover:hover .c-element_border {
     transform: translateY(0%);
 }
 
