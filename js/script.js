@@ -3,8 +3,9 @@ document
   .addEventListener("click", () => {
     const navbar = document.querySelector('[data-nav-element="navbar"]');
     const currentState = navbar.getAttribute("data-nav-state");
-    navbar.setAttribute(
-      "data-nav-state",
-      currentState === "open" ? "closed" : "open",
-    );
+    const newState = currentState === "open" ? "closed" : "open";
+
+    navbar.setAttribute("data-nav-state", newState);
+
+    document.body.style.overflow = newState === "open" ? "hidden" : "";
   });
