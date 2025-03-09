@@ -102,14 +102,13 @@ class HeaderElement extends HTMLElement {
                       </a>
                   </li>
               </ul>
-              <a
+              <div
                   data-nav-element="menu"
-                  href="#"
                   class="c-navbar_menu u-inline-block"
               >
                   <div class="c-navbar_marker"></div>
                   <div>Menu</div>
-              </a>
+              </div>
           </div>
       </header>
     `;
