@@ -30,7 +30,7 @@ class HeaderElement extends HTMLElement {
                               width="20"
                               height="20"
                           />
-                          <div class="c-navbar_border"></div>
+                          <div class="c-element_border"></div>
                       </a>
                       <a href="${rootPath}#" class="c-navbar_link u-inline-block">
                           <div>Gallery</div>
@@ -39,7 +39,7 @@ class HeaderElement extends HTMLElement {
                               width="20"
                               height="20"
                           />
-                          <div class="c-navbar_border"></div>
+                          <div class="c-element_border"></div>
                       </a>
                       <a
                           href="${rootPath}about.html"
@@ -51,7 +51,7 @@ class HeaderElement extends HTMLElement {
                               width="20"
                               height="20"
                           />
-                          <div class="c-navbar_border"></div>
+                          <div class="c-element_border"></div>
                       </a>
                       <a href="${rootPath}#" class="c-navbar_link u-inline-block">
                           <div>Resume</div>
@@ -60,7 +60,7 @@ class HeaderElement extends HTMLElement {
                               width="20"
                               height="20"
                           />
-                          <div class="c-navbar_border"></div>
+                          <div class="c-element_border"></div>
                       </a>
                   </li>
                   <li class="c-navbar_links is-sec">
@@ -71,7 +71,7 @@ class HeaderElement extends HTMLElement {
                               width="20"
                               height="20"
                           />
-                          <div class="c-navbar_border"></div>
+                          <div class="c-element_border"></div>
                       </a>
                       <a href="${rootPath}#" class="c-navbar_link u-inline-block">
                           <div>Uses</div>
@@ -80,7 +80,7 @@ class HeaderElement extends HTMLElement {
                               width="20"
                               height="20"
                           />
-                          <div class="c-navbar_border"></div>
+                          <div class="c-element_border"></div>
                       </a>
                       <a href="${rootPath}#" class="c-navbar_link u-inline-block">
                           <div>Thoughts</div>
@@ -89,7 +89,7 @@ class HeaderElement extends HTMLElement {
                               width="20"
                               height="20"
                           />
-                          <div class="c-navbar_border"></div>
+                          <div class="c-element_border"></div>
                       </a>
                   </li>
                   <li class="c-navbar_links is-tert">

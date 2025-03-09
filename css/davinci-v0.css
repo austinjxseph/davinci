@@ -1706,7 +1706,7 @@ figcaption {
     display: flex;
 }
 
-.c-navbar_border {
+.c-element_border {
     background-color: var(--_themes---neutrals--50);
     height: 2px;
     transition: transform 0.3s;
