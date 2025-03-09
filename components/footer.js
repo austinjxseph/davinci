@@ -2,8 +2,8 @@ class FooterElement extends HTMLElement {
   constructor() {
     super();
   }
-
   connectedCallback() {
+    const rootPath = this.getAttribute("root-path") || "/";
     this.innerHTML = `
       <footer class="u-layout-vflex c-footer_component">
           <div class="u-layout-vflex c-footer_inner">
@@ -18,45 +18,45 @@ class FooterElement extends HTMLElement {
               </div>
               <ul role="list" class="c-footer_row">
                   <li>
-                      <a href="#" class="c-footer_link u-inline-block">
+                      <a href="${rootPath}#" class="c-footer_link u-inline-block">
                           <img
-                              src="images/icons/mail.png"
+                              src="${rootPath}images/icons/mail.png"
                               width="24"
                               height="24"
                           />
                       </a>
                   </li>
                   <li>
-                      <a href="#" class="c-footer_link u-inline-block">
+                      <a href="${rootPath}#" class="c-footer_link u-inline-block">
                           <img
-                              src="images/icons/linkedin.png"
+                              src="${rootPath}images/icons/linkedin.png"
                               width="24"
                               height="24"
                           />
                       </a>
                   </li>
                   <li>
-                      <a href="#" class="c-footer_link u-inline-block">
+                      <a href="${rootPath}#" class="c-footer_link u-inline-block">
                           <img
-                              src="images/icons/readcv.png"
+                              src="${rootPath}images/icons/readcv.png"
                               width="24"
                               height="24"
                           />
                       </a>
                   </li>
                   <li>
-                      <a href="#" class="c-footer_link u-inline-block">
+                      <a href="${rootPath}#" class="c-footer_link u-inline-block">
                           <img
-                              src="images/icons/bluesky.png"
+                              src="${rootPath}images/icons/bluesky.png"
                               width="24"
                               height="24"
                           />
                       </a>
                   </li>
                   <li>
-                      <a href="#" class="c-footer_link u-inline-block">
+                      <a href="${rootPath}#" class="c-footer_link u-inline-block">
                           <img
-                              src="images/icons/github.png"
+                              src="${rootPath}images/icons/github.png"
                               width="24"
                               height="24"
                           />
@@ -68,5 +68,4 @@ class FooterElement extends HTMLElement {
     `;
   }
 }
-
 customElements.define("el-footer", FooterElement);

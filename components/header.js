@@ -4,6 +4,7 @@ class HeaderElement extends HTMLElement {
   }
 
   connectedCallback() {
+    const rootPath = this.getAttribute("root-path") || "/";
     this.innerHTML = `
       <header
           data-nav-state="closed"
@@ -14,7 +15,7 @@ class HeaderElement extends HTMLElement {
               <div aria-hidden="" class="c-navbar_overlay"></div>
 
               <a
-                  href="index.html"
+                  href="${rootPath}index.html"
                   aria-label="Go Back Home"
                   class="c-navbar_logo u-inline-block"
               >
@@ -22,40 +23,40 @@ class HeaderElement extends HTMLElement {
               </a>
               <ul role="list" class="c-navbar_drawer u-list-unstyled">
                   <li class="c-navbar_links is-pr">
-                      <a href="" class="c-navbar_link u-inline-block">
+                      <a href="${rootPath}" class="c-navbar_link u-inline-block">
                           <div>Sandbox</div>
                           <img
-                              src="images/icons/arrow.png"
+                              src="${rootPath}images/icons/arrow.png"
                               width="20"
                               height="20"
                           />
                           <div class="c-navbar_border"></div>
                       </a>
-                      <a href="#" class="c-navbar_link u-inline-block">
+                      <a href="${rootPath}#" class="c-navbar_link u-inline-block">
                           <div>Gallery</div>
                           <img
-                              src="images/icons/arrow.png"
+                              src="${rootPath}images/icons/arrow.png"
                               width="20"
                               height="20"
                           />
                           <div class="c-navbar_border"></div>
                       </a>
                       <a
-                          href="about.html"
+                          href="${rootPath}about.html"
                           class="c-navbar_link u-inline-block"
                       >
                           <div>About</div>
                           <img
-                              src="images/icons/arrow.png"
+                              src="${rootPath}images/icons/arrow.png"
                               width="20"
                               height="20"
                           />
                           <div class="c-navbar_border"></div>
                       </a>
-                      <a href="#" class="c-navbar_link u-inline-block">
+                      <a href="${rootPath}#" class="c-navbar_link u-inline-block">
                           <div>Resume</div>
                           <img
-                              src="images/icons/arrow.png"
+                              src="${rootPath}images/icons/arrow.png"
                               width="20"
                               height="20"
                           />
@@ -63,28 +64,28 @@ class HeaderElement extends HTMLElement {
                       </a>
                   </li>
                   <li class="c-navbar_links is-sec">
-                      <a href="#" class="c-navbar_link u-inline-block">
+                      <a href="${rootPath}#" class="c-navbar_link u-inline-block">
                           <div>Colophon</div>
                           <img
-                              src="images/icons/arrow.png"
+                              src="${rootPath}images/icons/arrow.png"
                               width="20"
                               height="20"
                           />
                           <div class="c-navbar_border"></div>
                       </a>
-                      <a href="#" class="c-navbar_link u-inline-block">
+                      <a href="${rootPath}#" class="c-navbar_link u-inline-block">
                           <div>Uses</div>
                           <img
-                              src="images/icons/arrow.png"
+                              src="${rootPath}images/icons/arrow.png"
                               width="20"
                               height="20"
                           />
                           <div class="c-navbar_border"></div>
                       </a>
-                      <a href="#" class="c-navbar_link u-inline-block">
+                      <a href="${rootPath}#" class="c-navbar_link u-inline-block">
                           <div>Thoughts</div>
                           <img
-                              src="images/icons/arrow.png"
+                              src="${rootPath}images/icons/arrow.png"
                               width="20"
                               height="20"
                           />
@@ -93,7 +94,7 @@ class HeaderElement extends HTMLElement {
                   </li>
                   <li class="c-navbar_links is-tert">
                       <a
-                          href="#"
+                          href="${rootPath}#"
                           class="c-navbar_link is-marker u-inline-block"
                       >
                           <div>London, England</div>
