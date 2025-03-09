@@ -1472,6 +1472,7 @@ figcaption {
     justify-content: flex-end;
     align-items: center;
     display: flex;
+    cursor: pointer;
 }
 
 .s-hm_inner {
