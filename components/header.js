@@ -12,7 +12,7 @@ class HeaderElement extends HTMLElement {
           class="u-layout-vflex c-navbar"
       >
           <div class="u-layout-hflex c-navbar_inner">
-              <div aria-hidden="" class="c-navbar_overlay"></div>
+              <div data-nav-element="overlay" aria-hidden="" class="c-navbar_overlay"></div>
 
               <a
                   href="${rootPath}index.html"

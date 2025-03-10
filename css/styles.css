@@ -90,10 +90,12 @@ ul {
 
 [data-nav-state="open"] .c-navbar_overlay {
     opacity: 100%;
+    display: block;
 }
 
 [data-nav-state="closed"] .c-navbar_overlay {
-    opacity: 100%;
+    opacity: 0%;
+    display: none;
 }
 
 .c-navbar_link:hover .c-element_border {

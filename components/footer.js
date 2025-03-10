@@ -24,8 +24,8 @@ class FooterElement extends HTMLElement {
                               width="24"
                               height="24"
                           />
+                          <div class="c-element_border"></div>
                       </a>
-                      <div class="c-element_border"></div>
                   </li>
                   <li>
                       <a href="${rootPath}#" class="c-footer_link u-inline-block">
@@ -34,8 +34,8 @@ class FooterElement extends HTMLElement {
                               width="24"
                               height="24"
                           />
+                          <div class="c-element_border"></div>
                       </a>
-                      <div class="c-element_border"></div>
                   </li>
                   <li>
                       <a href="${rootPath}#" class="c-footer_link u-inline-block">

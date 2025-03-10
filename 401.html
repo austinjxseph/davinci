@@ -1,4 +1,5 @@
 <!doctype html>
+<html>
     <head>
         <meta charset="utf-8" />
         <title>Protected page</title>
@@ -16,6 +17,9 @@
             crossorigin="anonymous"
         />
 
+        <script src="../components/header.js"></script>
+        <script src="../components/footer.js"></script>
+
         <script
             src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"
             type="text/javascript"
@@ -31,92 +35,83 @@
             type="image/x-icon"
         />
         <link href="images/webclip.png" rel="apple-touch-icon" />
-
-        <script
-            async=""
-            src="https://cdn.jsdelivr.net/npm/@finsweet/cookie-consent@1/fs-cc.js"
-            fs-cc-mode="opt-in"
-        ></script>
-        <script
-            defer=""
-            src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-scrolldisable@1/scrolldisable.js"
-        ></script>
-
     </head>
     <body class="body">
-        <div class="section fh">
-            <div class="s-pw_wrap w-password-page w-form">
-                <form
-                    action="/.wf_auth"
-                    method="post"
-                    id="email-form"
-                    name="email-form"
-                    data-name="Email Form"
-                    class="s-pw_inner gap-xxl w-password-page"
-                    data-wf-page-id="67a7f3d67329e4f8c06e55b5"
-                    data-wf-element-id="60d3fa3a5a19c1169cd58c4100000000000c"
-                >
-                    <div class="w-layout-vflex s-pw_content-wrap gap-md">
-                        <h6 class="c-cs_tag">Protected Page</h6>
-                        <input
-                            class="c-form_input w-password-page w-input"
-                            autofocus="true"
-                            maxlength="256"
-                            name="pass"
-                            data-name="field"
-                            placeholder="Enter your password"
-                            type="password"
-                            id="pass"
-                        />
-                    </div>
-                    <div
-                        class="c-form_message-error w-password-page w-form-fail"
+        <main>
+            <div class="section fh">
+                <div class="s-pw_wrap u-password-page u-form">
+                    <form
+                        action="/.wf_auth"
+                        method="post"
+                        id="email-form"
+                        name="email-form"
+                        data-name="Email Form"
+                        class="s-pw_inner gap-xxl u-password-page"
+                        data-wf-page-id="67a7f3d67329e4f8c06e55b5"
+                        data-wf-element-id="60d3fa3a5a19c1169cd58c4100000000000c"
                     >
-                        <div>Incorrect password. Please try again.</div>
-                    </div>
-                    <div class="w-layout-vflex l-button-wrap cc-centre">
-                        <input
-                            type="submit"
-                            data-wait="Please wait..."
-                            class="c-button w-password-page w-button"
-                            value="Submit"
-                        />
-                    </div>
-                    <div
-                        style="display: none"
-                        class="w-password-page w-embed w-script"
-                    >
-                        <input
-                            type="hidden"
-                            name="path"
-                            value="<%WF_FORM_VALUE_PATH%>"
-                        /><input
-                            type="hidden"
-                            name="page"
-                            value="<%WF_FORM_VALUE_PAGE%>"
-                        />
-                    </div>
-                    <div
-                        style="display: none"
-                        class="w-password-page w-embed w-script"
-                    >
-                        <script type="application/javascript">
-                            (function _handlePasswordPageOnload() {
-                                if (
-                                    /[?&]e=1(&|$)/.test(
-                                        document.location.search,
-                                    )
-                                ) {
-                                    document.querySelector(
-                                        ".w-password-page.w-form-fail",
-                                    ).style.display = "block";
-                                }
-                            })();
-                        </script>
-                    </div>
-                </form>
+                        <div class="u-layout-vflex s-pw_content-wrap gap-md">
+                            <h6 class="c-cs_tag">Protected Page</h6>
+                            <input
+                                class="c-form_input u-password-page u-input"
+                                autofocus="true"
+                                maxlength="256"
+                                name="pass"
+                                data-name="field"
+                                placeholder="Enter your password"
+                                type="password"
+                                id="pass"
+                            />
+                        </div>
+                        <div
+                            class="c-form_message-error u-password-page u-form-fail"
+                        >
+                            <div>Incorrect password. Please try again.</div>
+                        </div>
+                        <div class="u-layout-vflex l-button-wrap cc-centre">
+                            <input
+                                type="submit"
+                                data-wait="Please wait..."
+                                class="c-button u-password-page u-button"
+                                value="Submit"
+                            />
+                        </div>
+                        <div
+                            style="display: none"
+                            class="u-password-page u-embed u-script"
+                        >
+                            <input
+                                type="hidden"
+                                name="path"
+                                value="<%WF_FORM_VALUE_PATH%>"
+                            /><input
+                                type="hidden"
+                                name="page"
+                                value="<%WF_FORM_VALUE_PAGE%>"
+                            />
+                        </div>
+                        <div
+                            style="display: none"
+                            class="u-password-page u-embed u-script"
+                        >
+                            <script type="application/javascript">
+                                (function _handlePasswordPageOnload() {
+                                    if (
+                                        /[?&]e=1(&|$)/.test(
+                                            document.location.search,
+                                        )
+                                    ) {
+                                        document.querySelector(
+                                            ".u-password-page.w-form-fail",
+                                        ).style.display = "block";
+                                    }
+                                })();
+                            </script>
+                        </div>
+                    </form>
+                </div>
             </div>
-        </div>
+        </main>
         <script
             src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=67a7f3d67329e4f8c06e55ab"
             type="text/javascript"
