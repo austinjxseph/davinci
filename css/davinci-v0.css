@@ -1829,6 +1829,10 @@ figcaption {
         display: none;
     }
 
+    .u-text-nowrap {
+        white-space: normal;
+    }
+
     .pt-120 {
         padding-top: 3rem;
     }
@@ -1999,24 +2003,15 @@ figcaption {
         font-size: var(--paragraph--font-size-s);
         line-height: 2.2em;
     }
-}
-
-@media screen and (max-width: 767px) {
-    .section-of {
-        padding-right: var(--global--margin);
-        padding-left: var(--global--margin);
-    }
-
-    .u-hide-sm {
-        display: none;
-    }
-
-    .u-text-nowrap {
-        white-space: normal;
-    }
 
     .c-cs_hero {
         aspect-ratio: 12 / 12;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .u-hide-sm {
+        display: none;
     }
 }
 
