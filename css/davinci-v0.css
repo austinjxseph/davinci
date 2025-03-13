@@ -1619,8 +1619,9 @@ figcaption {
 .s-ab_div {
     flex: 1;
     align-self: stretch;
-    padding-top: 8rem;
-    padding-bottom: 9rem;
+    justify-content: space-between;
+    padding-top: var(--_units---abs--32);
+    padding-bottom: var(--_units---abs--36);
 }
 
 .s-ab_img {
@@ -1631,7 +1632,6 @@ figcaption {
 }
 
 .s-ab_heading {
-    flex: 1;
     justify-content: flex-end;
     align-items: flex-start;
     max-width: 32rem;
@@ -1846,6 +1846,10 @@ figcaption {
         font-size: var(--paragraph--font-size-m);
     }
 
+    .c-navbar {
+        font-size: var(--paragraph--font-size-s);
+    }
+
     .c-navbar_inner {
         flex-flow: row;
         justify-content: space-between;
@@ -1965,12 +1969,35 @@ figcaption {
 
     .s-ab_inner {
         flex-direction: column;
-        gap: var(--gap--lg);
+        max-height: none;
+        flex-grow: 0;
     }
 
     .s-ab_div {
         padding-top: var(--padding--xl);
-        padding-bottom: var(--padding--sm);
+        padding-bottom: 0px;
+        gap: var(--gap--xl);
+        flex-grow: 0;
+    }
+
+    .s-ab_row {
+        padding-left: 0rem;
+    }
+
+    .s-ab_scroll {
+        padding-top: 0px;
+        overflow: hidden;
+        height: auto;
+    }
+
+    .s-ab_text {
+        padding-bottom: var(--padding--xs);
+        position: relative;
+    }
+
+    .text-rt {
+        font-size: var(--paragraph--font-size-s);
+        line-height: 2.2em;
     }
 }
 

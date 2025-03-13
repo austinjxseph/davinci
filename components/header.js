@@ -19,7 +19,7 @@ class HeaderElement extends HTMLElement {
                   aria-label="Go Back Home"
                   class="c-navbar_logo u-inline-block"
               >
-                  <p>Austin Joseph</p>
+                  Austin Joseph
               </a>
               <ul role="list" class="c-navbar_drawer u-list-unstyled">
                   <li class="c-navbar_links is-pr">
