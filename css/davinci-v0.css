@@ -1676,7 +1676,7 @@ figcaption {
     flex: 1;
     align-self: stretch;
     width: 100%;
-    min-width: 50vw;
+    max-width: 30vw;
     overflow: scroll;
 }
 
