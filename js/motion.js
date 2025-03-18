@@ -1,3 +1,4 @@
+/*
 //GSAP for Headings
 window.addEventListener("DOMContentLoaded", (event) => {
   setTimeout(() => {
@@ -44,3 +45,4 @@ window.addEventListener("DOMContentLoaded", (event) => {
     gsap.set("[data-stagger-fade]", { opacity: 1 });
   }, 100);
 });
+*/
