@@ -10,10 +10,10 @@
     --h1--font-size: var(--_units---abs--8);
     --h1--line-height: var(--_units---rel--1-1);
     --h1--letter-spacing: var(--_units---rel--0-01);
-    --h2--font-size: var(--_units---abs--9);
+    --h2--font-size: var(--_units---abs--7);
     --h2--line-height: var(--_units---rel--1-2);
     --h2--letter-spacing: var(--_units---rel--0-01);
-    --h3--font-size: var(--_units---abs--7);
+    --h3--font-size: var(--_units---abs--6);
     --h3--line-height: var(--_units---rel--1-4);
     --h3--letter-spacing: var(--_units---rel--0-01);
     --h4--font-size: var(--_units---abs--3-5);
@@ -188,10 +188,10 @@ body {
     --h1--font-size: var(--_units---abs--8);
     --h1--line-height: var(--_units---rel--1-1);
     --h1--letter-spacing: var(--_units---rel--0-01);
-    --h2--font-size: var(--_units---abs--9);
+    --h2--font-size: var(--_units---abs--7);
     --h2--line-height: var(--_units---rel--1-2);
     --h2--letter-spacing: var(--_units---rel--0-01);
-    --h3--font-size: var(--_units---abs--7);
+    --h3--font-size: var(--_units---abs--6);
     --h3--line-height: var(--_units---rel--1-4);
     --h3--letter-spacing: var(--_units---rel--0-01);
     --h4--font-size: var(--_units---abs--3-5);
@@ -250,10 +250,10 @@ body {
         --h1--font-size: var(--_units---abs--8);
         --h1--line-height: var(--_units---rel--1-2);
         --h1--letter-spacing: var(--_units---rel--0-01);
-        --h2--font-size: var(--_units---abs--9);
+        --h2--font-size: var(--_units---abs--7);
         --h2--line-height: var(--_units---rel--1-2);
         --h2--letter-spacing: var(--_units---rel--0-01);
-        --h3--font-size: var(--_units---abs--7);
+        --h3--font-size: var(--_units---abs--6);
         --h3--line-height: var(--_units---rel--1-4);
         --h3--letter-spacing: var(--_units---rel--0-01);
         --h4--font-size: var(--_units---abs--5);
@@ -478,7 +478,6 @@ figcaption {
     width: 100%;
     max-width: 100vw;
     display: flex;
-    overflow: clip;
 }
 
 .main {
@@ -586,6 +585,23 @@ figcaption {
 
 @media screen and (max-width: 991px) {
     .section-vh {
+        height: auto;
+    }
+}
+
+.section-hr {
+    background-color: var(--_themes---site--bg--bg-primary);
+    color: var(--_themes---site--text--text-primary);
+    flex-direction: column;
+    justify-content: center;
+    align-self: stretch;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+@media screen and (max-width: 991px) {
+    .section-hr {
         height: auto;
     }
 }
@@ -879,6 +895,10 @@ figcaption {
 .u-stretch {
     object-fit: cover;
     height: 100%;
+}
+
+.u-flex-grow {
+    flex: 1;
 }
 
 .wp-25 {
@@ -1565,7 +1585,7 @@ figcaption {
 }
 
 .c-footer.abs {
-    position: absolute;
+    position: fixed;
     inset: auto 0% 0%;
 }
 
@@ -1631,11 +1651,8 @@ figcaption {
 }
 
 .s-hm_inner {
-    grid-column-gap: 64px;
-    grid-row-gap: 64px;
     flex: 1;
     align-self: stretch;
-    max-height: 100vh;
 }
 
 @media screen and (max-width: 991px) {
@@ -1647,10 +1664,27 @@ figcaption {
     }
 }
 
+.s-hm_wrap {
+    position: sticky;
+    flex: 1;
+    top: 0px;
+    height: 100dvh;
+}
+
+@media screen and (max-width: 991px) {
+    .s-hm_wrap {
+        position: relative;
+        height: auto;
+    }
+}
+
 .s-hm_text {
+    padding-right: var(--global--margin);
+    padding-left: var(--global--margin);
     padding-top: var(--_units---abs--32);
     padding-bottom: var(--_units---abs--24);
     flex: 1;
+    position: relative;
     justify-content: space-between;
     align-self: stretch;
     align-items: flex-start;
@@ -1658,33 +1692,34 @@ figcaption {
 
 @media screen and (max-width: 991px) {
     .s-hm_text {
+        padding-top: 8rem;
+        padding-bottom: 4rem;
         grid-column-gap: 3rem;
         grid-row-gap: 3rem;
         justify-content: flex-start;
         align-items: flex-start;
-        padding-top: 8rem;
-        padding-bottom: 4rem;
     }
 }
 
 .s-hm_track {
+    padding-right: var(--global--margin);
+    padding-left: var(--global--margin);
     padding-top: var(--_units---abs--32);
-    padding-bottom: var(--_units---abs--40);
+    padding-bottom: var(--_units---abs--16);
     grid-column-gap: 32px;
     grid-row-gap: 32px;
-    aspect-ratio: 1;
     flex: 1;
     align-self: stretch;
-    width: 100%;
     max-width: 30vw;
-    overflow: scroll;
+    height: fit-content;
 }
 
 @media screen and (max-width: 991px) {
     .s-hm_track {
         grid-column-gap: var(--global--margin);
         grid-row-gap: var(--global--margin);
-        aspect-ratio: auto;
+        flex: 1;
+        max-width: none;
         padding-top: 0;
         overflow: hidden;
     }
@@ -1834,10 +1869,27 @@ figcaption {
     }
 }
 
+.c-cs_sidebar {
+    position: sticky;
+    top: 0;
+    overflow: scroll;
+    height: 100vh;
+    max-width: 20vw;
+}
+
+.c-cs_aside {
+    gap: var(--gap--xxl);
+    padding-left: var(--global--margin);
+    padding-right: var(--global--margin);
+    padding-top: var(--padding--lg);
+    padding-bottom: var(--padding--lg);
+}
+
 .c-cs_header {
-    grid-row-gap: 48px;
+    grid-row-gap: 32px;
     grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
     grid-auto-columns: 1fr;
     align-self: stretch;
     place-items: start stretch;
@@ -1886,10 +1938,10 @@ figcaption {
 }
 
 .c-cs_grid {
-    grid-column-gap: 48px;
-    grid-row-gap: 48px;
+    grid-column-gap: 32px;
+    grid-row-gap: 32px;
     grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-auto-columns: 1fr;
     align-self: stretch;
     place-items: start stretch;
@@ -1900,6 +1952,16 @@ figcaption {
     .c-cs_grid {
         grid-column-gap: 32px;
         grid-row-gap: 32px;
+        grid-template-columns: 1fr;
+    }
+}
+
+.c-cs_grid.2-col {
+    grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 991px) {
+    .c-cs_grid.2-col {
         grid-template-columns: 1fr;
     }
 }
