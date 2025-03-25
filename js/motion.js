@@ -1,5 +1,4 @@
-/*
-//GSAP for Headings
+/*//GSAP for Headings
 window.addEventListener("DOMContentLoaded", (event) => {
   setTimeout(() => {
     if (typeof gsap === "undefined" || typeof SplitType === "undefined") {
@@ -44,5 +43,4 @@ window.addEventListener("DOMContentLoaded", (event) => {
     }
     gsap.set("[data-stagger-fade]", { opacity: 1 });
   }, 100);
-});
-*/
+  }); */
