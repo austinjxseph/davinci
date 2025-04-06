@@ -941,6 +941,10 @@ figcaption {
     width: 100vw;
 }
 
+.u-2-col {
+    grid-template-columns: 1fr 1fr;
+}
+
 .py-xxs {
     padding-top: var(--padding--xxs);
     padding-bottom: var(--padding--xxs);
@@ -1883,6 +1887,18 @@ figcaption {
     padding-right: var(--global--margin);
     padding-top: var(--padding--lg);
     padding-bottom: var(--padding--lg);
+    max-width: 30vw;
+    position: sticky;
+    top: 0;
+}
+
+@media screen and (max-width: 991px) {
+    .c-cs_aside {
+        max-width: none;
+        padding-bottom: var(--padding--xs);
+        position: sticky;
+        top: 0;
+    }
 }
 
 .c-cs_header {
@@ -1956,12 +1972,12 @@ figcaption {
     }
 }
 
-.c-cs_grid.2-col {
+.c-cs_grid.u-2-col {
     grid-template-columns: 1fr 1fr;
 }
 
 @media screen and (max-width: 991px) {
-    .c-cs_grid.2-col {
+    .c-cs_grid.u-2-col {
         grid-template-columns: 1fr;
     }
 }
@@ -2005,6 +2021,20 @@ figcaption {
     border-radius: 24px;
     padding: 0.5rem 1rem;
     font-size: 0.625rem;
+}
+
+.s-cs_inner {
+    align-self: stretch;
+}
+
+@media screen and (max-width: 991px) {
+    .s-cs_inner {
+        flex-direction: column;
+    }
+}
+
+.s-cs_body {
+    align-self: stretch;
 }
 
 .s-ab_inner {
