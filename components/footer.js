@@ -10,7 +10,7 @@ class FooterElement extends HTMLElement {
               <div class="u-layout-hflex c-footer_row copyright">
                   <div class="u-layout-vflex u-text-secondary">
                       <div class="text-sm">
-                          Copyright ©
+                          ©
                           <span data-nav-footer="year">2025</span> Austin
                           Joseph.
                       </div>

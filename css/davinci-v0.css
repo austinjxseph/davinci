@@ -37,7 +37,7 @@
     --_themes---neutrals--950: #020508;
     --_themes---neutrals--500: #667085;
     --_themes---neutrals--white: white;
-    --paragraph--line-height-m: var(--_units---rel--1-8);
+    --paragraph--line-height-m: var(--_units---rel--1-6);
     --paragraph--line-height-l: var(--_units---rel--1-2);
     --_themes---neutrals--100: #f1f5f9;
     --padding--xxs: var(--_units---abs--3);
@@ -212,7 +212,7 @@ body {
     --max-width--l: 75rem;
     --max-width--xxl: 140rem;
     --max-width--xl: 2000rem;
-    --paragraph--line-height-m: var(--_units---rel--1-8);
+    --paragraph--line-height-m: var(--_units---rel--1-6);
     --paragraph--line-height-l: var(--_units---rel--1-2);
     --padding--xxs: var(--_units---abs--6);
     --padding--xs: var(--_units---abs--8);
@@ -252,7 +252,7 @@ body {
         --paragraph--font-size-s: var(--_units---abs--3);
         --paragraph--letter-spacing: var(--_units---rel--0-01);
         --h1--font-size: var(--_units---abs--6);
-        --h1--line-height: var(--_units---rel--1-2);
+        --h1--line-height: var(--_units---rel--1-4);
         --h1--letter-spacing: var(--_units---rel--0-01);
         --h2--font-size: var(--_units---abs--8);
         --h2--line-height: var(--_units---rel--1-2);
@@ -283,11 +283,11 @@ body {
         --paragraph--line-height-m: var(--_units---rel--2-0);
         --paragraph--line-height-l: var(--_units---rel--1-5);
         --padding--sm: var(--_units---abs--10);
-        --padding--md: var(--_units---abs--16);
+        --padding--md: var(--_units---abs--12);
         --padding--lg: var(--_units---abs--18);
         --padding--xl: var(--_units---abs--28);
         --gap--xxs: var(--_units---abs--2);
-        --gap--xs: var(--_units---abs--2);
+        --gap--xs: var(--_units---abs--3);
         --gap--sm: var(--_units---abs--4);
         --gap--md: var(--_units---abs--4);
         --gap--lg: var(--_units---abs--6);
@@ -1850,7 +1850,7 @@ figcaption {
     .c-cs_aside {
         max-width: none;
         padding-top: var(--padding--xl);
-        padding-bottom: var(--padding--xs);
+        padding-bottom: var(--padding--sm);
         position: relative;
         top: 0;
     }
@@ -1869,8 +1869,8 @@ figcaption {
 
 @media screen and (max-width: 991px) {
     .c-cs_header {
-        grid-column-gap: 32px;
-        grid-row-gap: 32px;
+        grid-column-gap: 24px;
+        grid-row-gap: 24px;
         grid-template-columns: 1fr;
     }
 }
@@ -2053,7 +2053,6 @@ figcaption {
 }
 
 .s-ab_text {
-    text-align: justify;
     max-width: 24rem;
     padding-bottom: 4.5rem;
     position: relative;
@@ -2073,7 +2072,7 @@ figcaption {
 
 @media screen and (max-width: 991px) {
     .text-rt {
-        font-size: var(--paragraph--font-size-s);
+        font-size: var(--paragraph--font-size-m);
         line-height: 2.2em;
     }
 }
