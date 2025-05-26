@@ -292,8 +292,8 @@ body {
         --gap--sm: var(--_units---abs--4);
         --gap--md: var(--_units---abs--4-5);
         --gap--lg: var(--_units---abs--6);
-        --gap--xl: var(--_units---abs--10);
-        --gap--xxl: var(--_units---abs--12);
+        --gap--xl: var(--_units---abs--8);
+        --gap--xxl: var(--_units---abs--10);
         --h1--font-family: var(--typeface--primary);
         --h2--font-family: var(--typeface--primary);
         --h3--font-family: var(--typeface--primary);
