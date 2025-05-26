@@ -67,6 +67,7 @@
     --_units---abs--3: 0.75rem;
     --_units---abs--3-5: 0.875rem;
     --_units---abs--4: 1rem;
+    --_units---abs--4-5: 1.125rem;
     --_units---abs--5: 1.25rem;
     --_units---abs--7: 1.75rem;
     --_units---abs--8: 2rem;
@@ -285,11 +286,11 @@ body {
         --padding--sm: var(--_units---abs--10);
         --padding--md: var(--_units---abs--12);
         --padding--lg: var(--_units---abs--18);
-        --padding--xl: var(--_units---abs--28);
+        --padding--xl: var(--_units---abs--24);
         --gap--xxs: var(--_units---abs--2);
         --gap--xs: var(--_units---abs--3);
         --gap--sm: var(--_units---abs--4);
-        --gap--md: var(--_units---abs--4);
+        --gap--md: var(--_units---abs--4-5);
         --gap--lg: var(--_units---abs--6);
         --gap--xl: var(--_units---abs--10);
         --gap--xxl: var(--_units---abs--12);
