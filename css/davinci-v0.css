@@ -250,7 +250,7 @@ body {
         --typeface--primary: Saans, Arial, sans-serif;
         --typeface--secondary: "EB Garamond", "Trebuchet MS", sans-serif;
         --typeface--tertiary: "EB Garamond", sans-serif;
-        --paragraph--font-size-s: var(--_units---abs--3-5);
+        --paragraph--font-size-s: var(--_units---abs--3);
         --paragraph--letter-spacing: var(--_units---rel--0-01);
         --h1--font-size: var(--_units---abs--8);
         --h1--line-height: var(--_units---rel--1-2);
@@ -261,10 +261,10 @@ body {
         --h3--font-size: var(--_units---abs--6);
         --h3--line-height: var(--_units---rel--1-4);
         --h3--letter-spacing: var(--_units---rel--0-01);
-        --h4--font-size: var(--_units---abs--5);
+        --h4--font-size: var(--_units---abs--3-5);
         --h4--line-height: var(--_units---rel--1-4);
         --h4--letter-spacing: var(--_units---rel--0-01);
-        --h5--font-size: var(--_units---abs--4);
+        --h5--font-size: var(--_units---abs--3-5);
         --h5--line-height: var(--_units---rel--1-4);
         --h5--letter-spacing: var(--_units---rel--0-01);
         --h6--font-size: var(--_units---abs--3-5);
