@@ -250,24 +250,24 @@ body {
         --typeface--primary: Saans, Arial, sans-serif;
         --typeface--secondary: "EB Garamond", "Trebuchet MS", sans-serif;
         --typeface--tertiary: "EB Garamond", sans-serif;
-        --paragraph--font-size-s: var(--_units---abs--3);
+        --paragraph--font-size-s: var(--_units---abs--3-5);
         --paragraph--letter-spacing: var(--_units---rel--0-01);
-        --h1--font-size: var(--_units---abs--6);
-        --h1--line-height: var(--_units---rel--1-4);
+        --h1--font-size: var(--_units---abs--8);
+        --h1--line-height: var(--_units---rel--1-2);
         --h1--letter-spacing: var(--_units---rel--0-01);
-        --h2--font-size: var(--_units---abs--8);
+        --h2--font-size: var(--_units---abs--7);
         --h2--line-height: var(--_units---rel--1-2);
         --h2--letter-spacing: var(--_units---rel--0-01);
-        --h3--font-size: var(--_units---abs--5);
+        --h3--font-size: var(--_units---abs--6);
         --h3--line-height: var(--_units---rel--1-4);
         --h3--letter-spacing: var(--_units---rel--0-01);
-        --h4--font-size: var(--_units---abs--4);
+        --h4--font-size: var(--_units---abs--5);
         --h4--line-height: var(--_units---rel--1-4);
         --h4--letter-spacing: var(--_units---rel--0-01);
         --h5--font-size: var(--_units---abs--4);
         --h5--line-height: var(--_units---rel--1-4);
         --h5--letter-spacing: var(--_units---rel--0-01);
-        --h6--font-size: var(--_units---abs--4);
+        --h6--font-size: var(--_units---abs--3-5);
         --h6--line-height: var(--_units---rel--1-4);
         --h6--letter-spacing: var(--_units---rel--0);
         --paragraph--font-size-m: var(--_units---abs--3-5);
@@ -281,7 +281,7 @@ body {
         --max-width--l: 75rem;
         --max-width--xxl: 140rem;
         --max-width--xl: 2000rem;
-        --paragraph--line-height-m: var(--_units---rel--2-0);
+        --paragraph--line-height-m: var(--_units---rel--1-8);
         --paragraph--line-height-l: var(--_units---rel--1-5);
         --padding--sm: var(--_units---abs--10);
         --padding--md: var(--_units---abs--12);
@@ -343,7 +343,7 @@ h4 {
 
 h5 {
     font-family: var(--typeface--secondary);
-    color: var(--_themes---site--text--text-secondary);
+    color: var(--_themes---site--text--text-primary);
     font-size: var(--h5--font-size);
     line-height: var(--h5--line-height);
     letter-spacing: var(--h5--letter-spacing);
