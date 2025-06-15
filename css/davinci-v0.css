@@ -1836,43 +1836,35 @@ figcaption {
     max-width: 20vw;
 }
 
-.c-cs_aside {
-    gap: var(--gap--xxl);
-    padding-left: var(--global--margin);
-    padding-right: var(--global--margin);
-    padding-top: var(--padding--lg);
-    padding-bottom: var(--padding--lg);
-    max-width: 30vw;
-    position: sticky;
-    top: 0;
-}
-
-@media screen and (max-width: 991px) {
-    .c-cs_aside {
-        max-width: none;
-        padding-top: var(--padding--xl);
-        padding-bottom: var(--padding--sm);
-        position: relative;
-        top: 0;
-    }
-}
-
 .c-cs_header {
-    grid-row-gap: 32px;
+    /* grid-row-gap: 32px;
     grid-template-rows: auto;
     grid-template-columns: 1fr;
     grid-auto-rows: auto;
     grid-auto-columns: 1fr;
     align-self: stretch;
     place-items: start stretch;
-    display: grid;
+    display: grid; */
+    gap: var(--gap--md);
+    padding-left: var(--global--margin);
+    padding-right: var(--global--margin);
+    padding-top: var(--padding--lg);
+    padding-bottom: var(--padding--lg);
+    max-width: 30vw;
+    /* position: sticky;
+    top: 0; */
 }
 
 @media screen and (max-width: 991px) {
     .c-cs_header {
-        grid-column-gap: 24px;
+        /* grid-column-gap: 24px;
         grid-row-gap: 24px;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr; */
+        max-width: none;
+        padding-top: var(--padding--xl);
+        padding-bottom: var(--padding--sm);
+        position: relative;
+        top: 0;
     }
 }
 
