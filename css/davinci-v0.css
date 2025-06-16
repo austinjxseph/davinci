@@ -142,7 +142,7 @@
     --_units---rel--2-5: 2.5em;
     --_units---rel--3-0: 3em;
     --h1--font-family: var(--typeface--primary);
-    --h2--font-family: var(--typeface--primary);
+    --h2--font-family: var(--typeface--secondary);
     --h3--font-family: var(--typeface--primary);
     --h4--font-family: var(--typeface--primary);
     --h5--font-family: var(--typeface--secondary);
@@ -230,7 +230,7 @@ body {
     --gap--xxl: var(--_units---abs--16);
     --typeface--tertiary: "EB Garamond", sans-serif;
     --h1--font-family: var(--typeface--primary);
-    --h2--font-family: var(--typeface--primary);
+    --h2--font-family: var(--typeface--secondary);
     --h3--font-family: var(--typeface--primary);
     --h4--font-family: var(--typeface--primary);
     --h5--font-family: var(--typeface--secondary);
@@ -295,7 +295,7 @@ body {
         --gap--xl: var(--_units---abs--8);
         --gap--xxl: var(--_units---abs--10);
         --h1--font-family: var(--typeface--primary);
-        --h2--font-family: var(--typeface--primary);
+        --h2--font-family: var(--typeface--secondary);
         --h3--font-family: var(--typeface--primary);
         --h4--font-family: var(--typeface--primary);
         --h5--font-family: var(--typeface--secondary);
@@ -306,6 +306,7 @@ body {
 }
 
 h1 {
+    font-family: var(--h1--font-family);
     font-size: var(--h1--font-size);
     line-height: var(--h1--line-height);
     letter-spacing: var(--h1--letter-spacing);
@@ -315,6 +316,7 @@ h1 {
 }
 
 h2 {
+    font-family: var(--h2--font-family);
     font-size: var(--h2--font-size);
     line-height: var(--h2--line-height);
     letter-spacing: var(--h2--letter-spacing);
@@ -324,6 +326,7 @@ h2 {
 }
 
 h3 {
+    font-family: var(--h3--font-family);
     font-size: var(--h3--font-size);
     line-height: var(--h3--line-height);
     letter-spacing: var(--h3--letter-spacing);
@@ -333,6 +336,7 @@ h3 {
 }
 
 h4 {
+    font-family: var(--h4--font-family);
     font-size: var(--h4--font-size);
     line-height: var(--h4--line-height);
     letter-spacing: var(--h4--letter-spacing);
@@ -342,6 +346,7 @@ h4 {
 }
 
 h5 {
+    font-family: var(--h5--font-family);
     font-family: var(--typeface--secondary);
     color: var(--_themes---site--text--text-primary);
     font-size: var(--h5--font-size);
@@ -354,7 +359,7 @@ h5 {
 }
 
 h6 {
-    font-family: var(--typeface--secondary);
+    font-family: var(--h6--font-family);
     color: var(--_themes---site--text--text-secondary);
     font-size: var(--h6--font-size);
     line-height: var(--h6--line-height);
@@ -842,6 +847,10 @@ figcaption {
 
 .u-flex-grow {
     flex: 1;
+}
+
+.u-span-2 {
+    grid-column: span 2;
 }
 
 .wp-25 {
@@ -1845,12 +1854,15 @@ figcaption {
     align-self: stretch;
     place-items: start stretch;
     display: grid; */
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: var(--gap--md);
     padding-left: var(--global--margin);
     padding-right: var(--global--margin);
-    padding-top: var(--padding--lg);
-    padding-bottom: var(--padding--lg);
-    max-width: 30vw;
+    padding-top: var(--padding--xl);
+    padding-bottom: var(--padding--md);
+    align-self: stretch;
     /* position: sticky;
     top: 0; */
 }
@@ -1860,6 +1872,8 @@ figcaption {
         /* grid-column-gap: 24px;
         grid-row-gap: 24px;
         grid-template-columns: 1fr; */
+        display: flex;
+        flex-direction: column;
         max-width: none;
         padding-top: var(--padding--xl);
         padding-bottom: var(--padding--sm);
@@ -1869,7 +1883,8 @@ figcaption {
 }
 
 .c-cs_heading {
-    max-width: 30rem;
+    grid-column: span 2;
+    max-width: 36rem;
 }
 
 @media screen and (max-width: 991px) {
@@ -1910,6 +1925,11 @@ figcaption {
     align-self: stretch;
     place-items: start stretch;
     display: grid;
+    direction: rtl;
+}
+
+.c-cs_grid > * {
+    direction: ltr;
 }
 
 @media screen and (max-width: 991px) {
@@ -1917,6 +1937,7 @@ figcaption {
         grid-column-gap: 32px;
         grid-row-gap: 32px;
         grid-template-columns: 1fr;
+        direction: ltr;
     }
 }
 
@@ -1926,6 +1947,16 @@ figcaption {
 
 @media screen and (max-width: 991px) {
     .c-cs_grid.u-2-col {
+        grid-template-columns: 1fr;
+    }
+}
+
+.c-cs_grid.u-4-col {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 991px) {
+    .c-cs_grid.u-4-col {
         grid-template-columns: 1fr;
     }
 }
