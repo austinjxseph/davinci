@@ -1,45 +1,58 @@
 :root {
-    --_themes---site--bg--bg-primary: #020508;
+    /* Typography - Typefaces */
     --typeface--primary: Saans, Arial, sans-serif;
     --typeface--secondary: "EB Garamond", sans-serif;
     --typeface--tertiary: "EB Garamond", sans-serif;
+
+    /* Typography - Font Sizes */
+    --h1--font-size: var(--_units---abs--8);
+    --h2--font-size: var(--_units---abs--7);
+    --h3--font-size: var(--_units---abs--6);
+    --h4--font-size: var(--_units---abs--3-5);
+    --h5--font-size: var(--_units---abs--3-5);
+    --h6--font-size: var(--_units---abs--3-5);
+    --paragraph--font-size-s: var(--_units---abs--3);
+    --paragraph--font-size-m: var(--_units---abs--3-5);
+    --paragraph--font-size-l: var(--_units---abs--4);
+
+    /* Typography - Line Heights */
+    --h1--line-height: var(--_units---rel--1-1);
+    --h2--line-height: var(--_units---rel--1-2);
+    --h3--line-height: var(--_units---rel--1-4);
+    --h4--line-height: var(--_units---rel--1-4);
+    --h5--line-height: var(--_units---rel--1-4);
+    --h6--line-height: var(--_units---rel--1-4);
+    --paragraph--line-height-s: var(--_units---rel--1-8);
+    --paragraph--line-height-m: var(--_units---rel--1-8);
+    --paragraph--line-height-l: var(--_units---rel--1-4);
+
+    /* Typography - Letter Spacing */
+    --h1--letter-spacing: var(--_units---rel--0-01);
+    --h2--letter-spacing: var(--_units---rel--0-01);
+    --h3--letter-spacing: var(--_units---rel--0-01);
+    --h4--letter-spacing: var(--_units---rel--0-01);
+    --h5--letter-spacing: var(--_units---rel--0-01);
+    --h6--letter-spacing: var(--_units---rel--0);
+    --paragraph--letter-spacing: var(--_units---rel--0-01);
+
+    /* Theme Colors */
+    --_themes---site--bg--bg-primary: #020508;
     --_themes---site--text--text-secondary: #7f8082;
     --_themes---site--text--text-primary: white;
-    --paragraph--font-size-s: var(--_units---abs--3);
-    --paragraph--letter-spacing: var(--_units---rel--0-01);
-    --h1--font-size: var(--_units---abs--8);
-    --h1--line-height: var(--_units---rel--1-1);
-    --h1--letter-spacing: var(--_units---rel--0-01);
-    --h2--font-size: var(--_units---abs--7);
-    --h2--line-height: var(--_units---rel--1-2);
-    --h2--letter-spacing: var(--_units---rel--0-01);
-    --h3--font-size: var(--_units---abs--6);
-    --h3--line-height: var(--_units---rel--1-4);
-    --h3--letter-spacing: var(--_units---rel--0-01);
-    --h4--font-size: var(--_units---abs--3-5);
-    --h4--line-height: var(--_units---rel--1-4);
-    --h4--letter-spacing: var(--_units---rel--0-01);
-    --h5--font-size: var(--_units---abs--3-5);
-    --h5--line-height: var(--_units---rel--1-4);
-    --h5--letter-spacing: var(--_units---rel--0-01);
-    --h6--font-size: var(--_units---abs--3-5);
-    --h6--line-height: var(--_units---rel--1-4);
-    --h6--letter-spacing: var(--_units---rel--0);
-    --paragraph--font-size-m: var(--_units---abs--3-5);
-    --paragraph--line-height-s: var(--_units---rel--1-6);
-    --paragraph--font-size-l: var(--_units---abs--4);
+    --_themes---neutrals--950: #020508;
+    --_themes---neutrals--500: #667085;
+    --_themes---neutrals--white: white;
+    --_themes---neutrals--100: #f1f5f9;
+
+    /* Layout */
     --global--margin: var(--_units---abs--6);
     --max-width--s: 40rem;
     --max-width--m: 50rem;
     --max-width--l: 75rem;
     --max-width--xxl: 140rem;
     --max-width--xl: 2000rem;
-    --_themes---neutrals--950: #020508;
-    --_themes---neutrals--500: #667085;
-    --_themes---neutrals--white: white;
-    --paragraph--line-height-m: var(--_units---rel--1-6);
-    --paragraph--line-height-l: var(--_units---rel--1-2);
-    --_themes---neutrals--100: #f1f5f9;
+
+    /* Spacing */
     --padding--xxs: var(--_units---abs--3);
     --padding--xs: var(--_units---abs--6);
     --padding--sm: var(--_units---abs--12);
@@ -182,39 +195,65 @@ body {
     font-size: var(--paragraph--font-size-s);
     line-height: var(--paragraph--font-size-s);
     letter-spacing: var(--paragraph--letter-spacing);
+    overscroll-behavior-y: none;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+
+    /* Typography - Typefaces */
     --typeface--primary: Saans, Arial, sans-serif;
     --typeface--secondary: "EB Garamond", "Trebuchet MS", sans-serif;
-    --paragraph--font-size-s: var(--_units---abs--3);
-    --paragraph--letter-spacing: var(--_units---rel--0-01);
+    --typeface--tertiary: "EB Garamond", sans-serif;
+
+    /* Typography - Font Sizes */
     --h1--font-size: var(--_units---abs--8);
-    --h1--line-height: var(--_units---rel--1-1);
-    --h1--letter-spacing: var(--_units---rel--0-01);
     --h2--font-size: var(--_units---abs--7);
-    --h2--line-height: var(--_units---rel--1-2);
-    --h2--letter-spacing: var(--_units---rel--0-01);
     --h3--font-size: var(--_units---abs--6);
-    --h3--line-height: var(--_units---rel--1-4);
-    --h3--letter-spacing: var(--_units---rel--0-01);
     --h4--font-size: var(--_units---abs--3-5);
-    --h4--line-height: var(--_units---rel--1-4);
-    --h4--letter-spacing: var(--_units---rel--0-01);
     --h5--font-size: var(--_units---abs--3-5);
-    --h5--line-height: var(--_units---rel--1-4);
-    --h5--letter-spacing: var(--_units---rel--0-01);
     --h6--font-size: var(--_units---abs--3-5);
-    --h6--line-height: var(--_units---rel--1-4);
-    --h6--letter-spacing: var(--_units---rel--0);
+    --paragraph--font-size-s: var(--_units---abs--3);
     --paragraph--font-size-m: var(--_units---abs--3-5);
-    --paragraph--line-height-s: var(--_units---rel--1-6);
     --paragraph--font-size-l: var(--_units---abs--4);
+
+    /* Typography - Line Heights */
+    --h1--line-height: var(--_units---rel--1-1);
+    --h2--line-height: var(--_units---rel--1-2);
+    --h3--line-height: var(--_units---rel--1-4);
+    --h4--line-height: var(--_units---rel--1-4);
+    --h5--line-height: var(--_units---rel--1-4);
+    --h6--line-height: var(--_units---rel--1-4);
+    --paragraph--line-height-s: var(--_units---rel--1-8);
+    --paragraph--line-height-m: var(--_units---rel--1-8);
+    --paragraph--line-height-l: var(--_units---rel--1-4);
+
+    /* Typography - Letter Spacing */
+    --h1--letter-spacing: var(--_units---rel--0-01);
+    --h2--letter-spacing: var(--_units---rel--0-01);
+    --h3--letter-spacing: var(--_units---rel--0-01);
+    --h4--letter-spacing: var(--_units---rel--0-01);
+    --h5--letter-spacing: var(--_units---rel--0-01);
+    --h6--letter-spacing: var(--_units---rel--0);
+    --paragraph--letter-spacing: var(--_units---rel--0-01);
+
+    /* Typography - Font Families */
+    --h1--font-family: var(--typeface--primary);
+    --h2--font-family: var(--typeface--secondary);
+    --h3--font-family: var(--typeface--primary);
+    --h4--font-family: var(--typeface--primary);
+    --h5--font-family: var(--typeface--secondary);
+    --h6--font-family: var(--typeface--secondary);
+    --paragraph--font-family: var(--typeface--primary);
+
+    /* Layout */
     --global--margin: var(--_units---abs--6);
     --max-width--s: 40rem;
     --max-width--m: 50rem;
     --max-width--l: 75rem;
     --max-width--xxl: 140rem;
     --max-width--xl: 2000rem;
-    --paragraph--line-height-m: var(--_units---rel--1-6);
-    --paragraph--line-height-l: var(--_units---rel--1-2);
+
+    /* Spacing */
     --padding--xxs: var(--_units---abs--6);
     --padding--xs: var(--_units---abs--8);
     --padding--sm: var(--_units---abs--12);
@@ -228,61 +267,70 @@ body {
     --gap--lg: var(--_units---abs--8);
     --gap--xl: var(--_units---abs--12);
     --gap--xxl: var(--_units---abs--16);
-    --typeface--tertiary: "EB Garamond", sans-serif;
-    --h1--font-family: var(--typeface--primary);
-    --h2--font-family: var(--typeface--secondary);
-    --h3--font-family: var(--typeface--primary);
-    --h4--font-family: var(--typeface--primary);
-    --h5--font-family: var(--typeface--secondary);
-    --h6--font-family: var(--typeface--secondary);
-    --paragraph--font-family: var(--typeface--primary);
     --gap--flex: var(--_units---abs--4);
-    overscroll-behavior-y: none;
-    margin-left: auto;
-    margin-right: auto;
-    font-weight: 400;
 }
 
 /* Mobile */
 
+/* Mobile Breakpoint */
 @media screen and (max-width: 479px) {
     body {
+        /* Typography - Typefaces */
         --typeface--primary: Saans, Arial, sans-serif;
         --typeface--secondary: "EB Garamond", "Trebuchet MS", sans-serif;
         --typeface--tertiary: "EB Garamond", sans-serif;
-        --paragraph--font-size-s: var(--_units---abs--3);
-        --paragraph--letter-spacing: var(--_units---rel--0-01);
+
+        /* Typography - Font Sizes */
         --h1--font-size: var(--_units---abs--8);
-        --h1--line-height: var(--_units---rel--1-2);
-        --h1--letter-spacing: var(--_units---rel--0-01);
         --h2--font-size: var(--_units---abs--7);
-        --h2--line-height: var(--_units---rel--1-2);
-        --h2--letter-spacing: var(--_units---rel--0-01);
         --h3--font-size: var(--_units---abs--6);
-        --h3--line-height: var(--_units---rel--1-4);
-        --h3--letter-spacing: var(--_units---rel--0-01);
         --h4--font-size: var(--_units---abs--3-5);
-        --h4--line-height: var(--_units---rel--1-4);
-        --h4--letter-spacing: var(--_units---rel--0-01);
         --h5--font-size: var(--_units---abs--3-5);
-        --h5--line-height: var(--_units---rel--1-4);
-        --h5--letter-spacing: var(--_units---rel--0-01);
         --h6--font-size: var(--_units---abs--3-5);
-        --h6--line-height: var(--_units---rel--1-4);
-        --h6--letter-spacing: var(--_units---rel--0);
+        --paragraph--font-size-s: var(--_units---abs--3);
         --paragraph--font-size-m: var(--_units---abs--3-5);
-        --paragraph--line-height-s: var(--_units---rel--1-4);
         --paragraph--font-size-l: var(--_units---abs--4);
-        --padding--xs: var(--_units---abs--8);
-        --padding--xxs: var(--_units---abs--6);
+
+        /* Typography - Line Heights */
+        --h1--line-height: var(--_units---rel--1-1);
+        --h2--line-height: var(--_units---rel--1-2);
+        --h3--line-height: var(--_units---rel--1-4);
+        --h4--line-height: var(--_units---rel--1-4);
+        --h5--line-height: var(--_units---rel--1-4);
+        --h6--line-height: var(--_units---rel--1-4);
+        --paragraph--line-height-s: var(--_units---rel--1-8);
+        --paragraph--line-height-m: var(--_units---rel--1-8);
+        --paragraph--line-height-l: var(--_units---rel--1-4);
+
+        /* Typography - Letter Spacing */
+        --h1--letter-spacing: var(--_units---rel--0-01);
+        --h2--letter-spacing: var(--_units---rel--0-01);
+        --h3--letter-spacing: var(--_units---rel--0-01);
+        --h4--letter-spacing: var(--_units---rel--0-01);
+        --h5--letter-spacing: var(--_units---rel--0-01);
+        --h6--letter-spacing: var(--_units---rel--0);
+        --paragraph--letter-spacing: var(--_units---rel--0-01);
+
+        /* Typography - Font Families */
+        --h1--font-family: var(--typeface--primary);
+        --h2--font-family: var(--typeface--secondary);
+        --h3--font-family: var(--typeface--primary);
+        --h4--font-family: var(--typeface--primary);
+        --h5--font-family: var(--typeface--secondary);
+        --h6--font-family: var(--typeface--secondary);
+        --paragraph--font-family: var(--typeface--primary);
+
+        /* Layout */
         --global--margin: var(--_units---abs--4);
         --max-width--s: 40rem;
         --max-width--m: 50rem;
         --max-width--l: 75rem;
         --max-width--xxl: 140rem;
         --max-width--xl: 2000rem;
-        --paragraph--line-height-m: var(--_units---rel--1-8);
-        --paragraph--line-height-l: var(--_units---rel--1-5);
+
+        /* Spacing */
+        --padding--xxs: var(--_units---abs--6);
+        --padding--xs: var(--_units---abs--8);
         --padding--sm: var(--_units---abs--10);
         --padding--md: var(--_units---abs--12);
         --padding--lg: var(--_units---abs--18);
@@ -294,13 +342,6 @@ body {
         --gap--lg: var(--_units---abs--6);
         --gap--xl: var(--_units---abs--8);
         --gap--xxl: var(--_units---abs--10);
-        --h1--font-family: var(--typeface--primary);
-        --h2--font-family: var(--typeface--secondary);
-        --h3--font-family: var(--typeface--primary);
-        --h4--font-family: var(--typeface--primary);
-        --h5--font-family: var(--typeface--secondary);
-        --h6--font-family: var(--typeface--secondary);
-        --paragraph--font-family: var(--typeface--primary);
         --gap--flex: var(--_units---abs--4);
     }
 }
