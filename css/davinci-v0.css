@@ -984,6 +984,13 @@ figcaption {
     align-self: stretch;
 }
 
+@media screen and (max-width: 991px) {
+    .mb-py-md {
+        padding-bottom: var(--padding--md);
+        padding-top: var(--padding--md);
+    }
+}
+
 .pt-0 {
     padding-top: 0;
 }
@@ -1010,10 +1017,6 @@ figcaption {
 
 .pt-xl {
     padding-top: var(--padding--xl);
-}
-
-.pt-120 {
-    padding-top: 4rem;
 }
 
 @media screen and (max-width: 991px) {
@@ -1056,19 +1059,9 @@ figcaption {
     padding-bottom: var(--padding--xl);
 }
 
-.pb-120 {
-    padding-bottom: 4rem;
-}
-
 @media screen and (max-width: 991px) {
     .mb-pb-xs {
         padding-bottom: var(--padding--xs);
-    }
-}
-
-@media screen and (max-width: 991px) {
-    .pb-120 {
-        padding-bottom: 3rem;
     }
 }
 
@@ -1491,6 +1484,7 @@ figcaption {
 }
 
 .c-navbar_menu {
+    position: relative;
     grid-column-gap: 0.75rem;
     grid-row-gap: 0.75rem;
     flex-flow: row;
@@ -1694,7 +1688,7 @@ figcaption {
     padding-bottom: var(--_units---abs--24);
     flex: 1;
     position: relative;
-    justify-content: space-between;
+    justify-content: end;
     align-self: stretch;
     align-items: flex-start;
 }
@@ -1719,7 +1713,7 @@ figcaption {
     grid-row-gap: 32px;
     flex: 1;
     align-self: stretch;
-    max-width: 30vw;
+    max-width: calc(100vh - 2 * (var(--padding--lg)));
     height: fit-content;
 }
 
@@ -1910,11 +1904,9 @@ figcaption {
 
 @media screen and (max-width: 991px) {
     .c-cs_header {
-        /* grid-column-gap: 24px;
-        grid-row-gap: 24px;
-        grid-template-columns: 1fr; */
         display: flex;
         flex-direction: column;
+        gap: var(--gap--xl);
         max-width: none;
         padding-top: var(--padding--xl);
         padding-bottom: var(--padding--sm);
