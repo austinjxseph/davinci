@@ -2039,17 +2039,6 @@ figcaption {
     }
 }
 
-.s-th_inner {
-    flex: 1;
-    align-self: stretch;
-}
-
-.s-th_body {
-    align-self: flex-end;
-    width: 100%;
-    max-width: 37.5rem;
-}
-
 .s-404_inner {
     flex: 1;
     justify-content: center;

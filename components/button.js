@@ -6,7 +6,7 @@ class ButtonElement extends HTMLElement {
   connectedCallback() {
     const rootPath = this.getAttribute("root-path") || "/";
     const href = this.getAttribute("href") || "#";
-    const buttonText = this.getAttribute("button-text") || "Button";
+    const buttonText = this.getAttribute("button-label") || "View Resume";
     const isActive = this.hasAttribute("active");
 
     this.innerHTML = `
