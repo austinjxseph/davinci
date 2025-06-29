@@ -23,82 +23,35 @@ class HeaderElement extends HTMLElement {
               </a>
               <ul role="list" class="c-navbar_drawer u-list-unstyled">
                   <li class="c-navbar_links is-pr">
-                      <a href="${rootPath}" class="c-navbar_link u-inline-block">
+                      <h3 class="c-navbar_link u-inline-block">
                           <div>Sandbox</div>
-                          <img
-                              src="${rootPath}images/icons/arrow.png"
-                              width="20"
-                              height="20"
-                          />
                           <div class="c-element_border"></div>
-                      </a>
-                      <a href="${rootPath}#" class="c-navbar_link u-inline-block">
+                      </h3>
+                      <h3 class="c-navbar_link u-inline-block">
                           <div>Gallery</div>
-                          <img
-                              src="${rootPath}images/icons/arrow.png"
-                              width="20"
-                              height="20"
-                          />
                           <div class="c-element_border"></div>
-                      </a>
-                      <a
-                          href="${rootPath}about.html"
-                          class="c-navbar_link u-inline-block"
-                      >
+                      </h3>
+                      <h3 class="c-navbar_link u-inline-block">
                           <div>About</div>
-                          <img
-                              src="${rootPath}images/icons/arrow.png"
-                              width="20"
-                              height="20"
-                          />
                           <div class="c-element_border"></div>
-                      </a>
-                      <a href="${rootPath}#" class="c-navbar_link u-inline-block">
+                      </h3>
+                      <h3 class="c-navbar_link u-inline-block">
                           <div>Resume</div>
-                          <img
-                              src="${rootPath}images/icons/arrow.png"
-                              width="20"
-                              height="20"
-                          />
                           <div class="c-element_border"></div>
-                      </a>
+                      </h3>
                   </li>
                   <li class="c-navbar_links is-sec">
                       <a href="${rootPath}#" class="c-navbar_link u-inline-block">
                           <div>Colophon</div>
-                          <img
-                              src="${rootPath}images/icons/arrow.png"
-                              width="20"
-                              height="20"
-                          />
                           <div class="c-element_border"></div>
                       </a>
                       <a href="${rootPath}#" class="c-navbar_link u-inline-block">
                           <div>Uses</div>
-                          <img
-                              src="${rootPath}images/icons/arrow.png"
-                              width="20"
-                              height="20"
-                          />
                           <div class="c-element_border"></div>
                       </a>
                       <a href="${rootPath}#" class="c-navbar_link u-inline-block">
                           <div>Thoughts</div>
-                          <img
-                              src="${rootPath}images/icons/arrow.png"
-                              width="20"
-                              height="20"
-                          />
                           <div class="c-element_border"></div>
-                      </a>
-                  </li>
-                  <li class="c-navbar_links is-tert">
-                      <a
-                          href="${rootPath}#"
-                          class="c-navbar_link is-marker u-inline-block"
-                      >
-                          <div>London, England</div>
-                          <div class="u-text-secondary">[00:00]</div>
                       </a>
                   </li>
               </ul>

@@ -63,12 +63,20 @@ ul {
     display: inline-flex;
 }
 
+[data-nav-element="menu"] {
+    z-index: 9;
+}
+
 [data-nav-state="closed"] .c-navbar_drawer {
-    transform: translateX(-120%);
+    pointer-events: none;
+    opacity: 0;
+    backdrop-filter: blur(0px);
 }
 
 [data-nav-state="open"] .c-navbar_drawer {
-    transform: translateX(0%);
+    pointer-events: auto;
+    opacity: 1;
+    backdrop-filter: blur(40px);
 }
 
 [data-nav-state="open"] .c-navbar_overlay {
@@ -117,36 +125,6 @@ ul {
 .s-ab_scroll {
     -ms-overflow-style: none; /* Internet Explorer and Edge */
     scrollbar-width: none; /* Firefox */
-}
-
-.c-cs_sidebar {
-    scrollbar-width: thin; /* Firefox */
-    scrollbar-color: rgba(255, 255, 255, 0.2) transparent; /* Firefox */
-    position: absolute; /* Avoid layout shifts */
-}
-
-.c-cs_sidebar::-webkit-scrollbar {
-    width: 6px; /* Width of the scrollbar */
-    background-color: red; /* Transparent track */
-}
-
-.c-cs_sidebar::-webkit-scrollbar-thumb {
-    background-color: rgba(
-        255,
-        255,
-        255,
-        0.2
-    ); /* Thumb color with 0.2 opacity */
-    border-radius: 3px; /* Rounded corners for the thumb */
-}
-
-.c-cs_sidebar::-webkit-scrollbar-thumb:hover {
-    background-color: rgba(
-        255,
-        255,
-        255,
-        0.4
-    ); /* Thumb color with 0.4 opacity on hover */
 }
 
 .u-line-mask {
