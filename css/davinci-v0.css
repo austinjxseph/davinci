@@ -14,10 +14,18 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: "EB Garamond Italic";
+    src: url("../fonts/EBGaramond-Italic.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
 :root {
     --typeface--primary: Saans, Arial, sans-serif;
-    --typeface--secondary: "EB Garamond", Georgia, serif;
-    --typeface--tertiary: "EB Garamond", Georgia, serif;
+    --typeface--secondary: "EB Garamond Italic", Georgia, serif;
+    --typeface--tertiary: "EB Garamond Italic", Georgia, serif;
 
     --h1--font-size: var(--_units---abs--8);
     --h2--font-size: var(--_units---abs--7);
@@ -210,8 +218,8 @@ body {
     font-weight: 400;
 
     --typeface--primary: Saans, Arial, sans-serif;
-    --typeface--secondary: "EB Garamond", Georgia, serif;
-    --typeface--tertiary: "EB Garamond", Georgia, serif;
+    --typeface--secondary: "EB Garamond Italic", Georgia, serif;
+    --typeface--tertiary: "EB Garamond Italic", Georgia, serif;
 
     --h1--font-size: var(--_units---abs--8);
     --h2--font-size: var(--_units---abs--7);
@@ -275,8 +283,8 @@ body {
 @media screen and (max-width: 479px) {
     body {
         --typeface--primary: Saans, Arial, sans-serif;
-        --typeface--secondary: "EB Garamond", Georgia, serif;
-        --typeface--tertiary: "EB Garamond", Georgia, serif;
+        --typeface--secondary: "EB Garamond Italic", Georgia, serif;
+        --typeface--tertiary: "EB Garamond Italic", Georgia, serif;
 
         --h1--font-size: var(--_units---abs--8);
         --h2--font-size: var(--_units---abs--7);
@@ -798,7 +806,6 @@ figcaption {
 
 .u-font-accent {
     font-family: var(--typeface--tertiary);
-    font-style: italic;
 }
 
 .u-text-left {
